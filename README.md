@@ -2,16 +2,16 @@
 This Python project is an assignment for the Introduction to Artificial Intelligence (AI) module in semester 3 of my diploma program at APU. The development of this project is solely from my own contribution. However, credits to my teammates who contributed significantly in documentation, which include Kee Wen Yew, Joshua Liew Yi-Way, Colwyn Pang and Chang Hin Yew. Unlike my PPE management system project in my diploma semester 3, this project contains a simple graphical user interface for user interaction with the chatbot.
 
 The development of the AI chatbot aims to become a virtual assistant that helps to resolve mathematical problems based on the contents of Form 4 and Form 5 syllabus of the KSSM mathematics subjects (Form 4 and Form 5 in other words, means higher-level secondary school education in Malaysia). These two subjects are Mathematics and Additional Mathematics. KSSM mathematics mainly focuses on five main areas of learning that are interconnected with each other: Numbers and Operations, Measurement and Geometry, Relation and Algebra, Statistics and Probability and Discrete Mathematics. This new syllabus mainly emphasizes on developing Higher Level Thinking Skills (KBAT) in students. This prompts the idea of this project. 
-
+<br>
 ### Context: Why haven't you used chatbot development platforms / websites for this?
 Initially, our team picked Botsonic, an online chatbot creating platform to develop our solution for the assignment. However, the free version of Botsonic has several limitations, such as limited source uploads, low customization, occasional inaccurate response or hallucinations, etc. Other chatbot development platforms echo similar issues. Besides, and ultimately, those platforms would lead to the creation of a rule-based chatbot, which my team finds pointless at the time due to our project scope (e.g., a help-and-support chatbot is suitable to be rule-based, but not for a chatbot that solves mathematical problems). 
 
 Understanding our situation, our lecturer, Ts. Dr. Law Foong Li has suggested us to integrate Google's LLM - Gemini in a chatbot program developed using Python programming language. An online tutorial is provided for me to follow along and create the AI chatbot for my team's assignment. 
 
 This technique allows our team to benefit from Gemini’s natural language processing (NLP) technology offered by Gemini. In addition, Python programming provides us freedom in developing and customizing a program that tailors to our project’s need. Most importantly, the retrieval augmented generation (RAG) technique is made possible because of Python’s comprehensive library. 
-
+<br>
 *Important: This repository is only intended solely for academic reference and personal learning. It should not be reused or resubmitted as original work under any circumstance. Unauthorized reproduction or misuse is strictly discouraged.*
-
+<br>
 
 # Project Design and Development Details (How The Program Works)
 The design idea of the chatbot revolves around ensuring it responds to queries accurately using reliable information source. At initial launch, the chatbot should first greet users. Then users are allowed to type any input they want in English, which then prompts the chatbot to generate a response based on the context of the current KSSM syllabus. This is by extracting wordings and knowledge directly from the most reliable source in the syllabus - KSSM Mathematics and Additional Mathematics textbooks. Realizing this process involves creating a knowledge base for the chatbot to retrieve information from. If the query is similar enough to any data in the knowledge base, the data will be taken as a reference point for the chatbot to respond.
