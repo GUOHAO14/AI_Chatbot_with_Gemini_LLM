@@ -9,7 +9,9 @@ Initially, our team picked Botsonic, an online chatbot creating platform to deve
 Understanding our situation, our lecturer, Ts. Dr. Law Foong Li has suggested us to integrate Google's LLM - Gemini in a chatbot program developed using Python programming language. An online tutorial is provided for me to follow along and create the AI chatbot for my team's assignment. 
 
 This technique allows our team to benefit from Gemini’s natural language processing (NLP) technology offered by Gemini. In addition, Python programming provides us freedom in developing and customizing a program that tailors to our project’s need. Most importantly, the retrieval augmented generation (RAG) technique is made possible because of Python’s comprehensive library. 
+
 ---
+
 *Important: This repository is only intended solely for academic reference and personal learning. It should not be reused or resubmitted as original work under any circumstance. Unauthorized reproduction or misuse is strictly discouraged.*
 <br>
 
