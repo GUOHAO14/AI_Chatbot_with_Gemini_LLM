@@ -13,7 +13,8 @@ This technique allows our team to benefit from Gemini’s natural language proce
 ---
 
 *Important: This repository is only intended solely for academic reference and personal learning. It should not be reused or resubmitted as original work under any circumstance. Unauthorized reproduction or misuse is strictly discouraged.*
-<br>
+
+---
 
 # Project Design and Development Details (How The Program Works)
 The design idea of the chatbot revolves around ensuring it responds to queries accurately using reliable information source. At initial launch, the chatbot should first greet users. Then users are allowed to type any input they want in English, which then prompts the chatbot to generate a response based on the context of the current KSSM syllabus. This is by extracting wordings and knowledge directly from the most reliable source in the syllabus - KSSM Mathematics and Additional Mathematics textbooks. Realizing this process involves creating a knowledge base for the chatbot to retrieve information from. If the query is similar enough to any data in the knowledge base, the data will be taken as a reference point for the chatbot to respond.
