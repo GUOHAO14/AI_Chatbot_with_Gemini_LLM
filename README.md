@@ -1,5 +1,5 @@
 # AI Chatbot with Gemini LLM - Overview
-This Python project is an assignment for the Introduction to Artificial Intelligence (AI) module in semester 3 of my diploma program at APU. Unlike my PPE_Management_System Python project, this project contains a simple graphical user interface for user interaction with the chatbot.
+This Python project is an assignment for the Introduction to Artificial Intelligence (AI) module in semester 3 of my diploma program at APU. The development of this project is solely from my own contribution. However, credits to my teammates who contributed significantly in documentation, which include Kee Wen Yew, Joshua Liew Yi-Way, Colwyn Pang and Chang Hin Yew. Unlike my PPE management system project in my diploma semester 3, this project contains a simple graphical user interface for user interaction with the chatbot.
 
 The development of the AI chatbot aims to become a virtual assistant that helps to resolve mathematical problems based on the contents of Form 4 and Form 5 syllabus of the KSSM mathematics subjects (Form 4 and Form 5 in other words, means higher-level secondary school education in Malaysia). These two subjects are Mathematics and Additional Mathematics. KSSM mathematics mainly focuses on five main areas of learning that are interconnected with each other: Numbers and Operations, Measurement and Geometry, Relation and Algebra, Statistics and Probability and Discrete Mathematics. This new syllabus mainly emphasizes on developing Higher Level Thinking Skills (KBAT) in students. This prompts the idea of this project. 
 
@@ -9,6 +9,8 @@ Initially, our team picked Botsonic, an online chatbot creating platform to deve
 Understanding our situation, our lecturer, Ts. Dr. Law Foong Li has suggested us to integrate Google's LLM - Gemini in a chatbot program developed using Python programming language. An online tutorial is provided for me to follow along and create the AI chatbot for my team's assignment. 
 
 This technique allows our team to benefit from Gemini’s natural language processing (NLP) technology offered by Gemini. In addition, Python programming provides us freedom in developing and customizing a program that tailors to our project’s need. Most importantly, the retrieval augmented generation (RAG) technique is made possible because of Python’s comprehensive library. 
+
+*Important: This repository is only intended solely for academic reference and personal learning. It should not be reused or resubmitted as original work under any circumstance. Unauthorized reproduction or misuse is strictly discouraged.*
 
 
 # Project Design and Development Details (How The Program Works)
