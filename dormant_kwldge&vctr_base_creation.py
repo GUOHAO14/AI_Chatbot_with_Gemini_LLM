@@ -15,7 +15,7 @@ import regex as re
 import nltk
 
 nltk.download('stopwords')  # download NLTK stopwords
-api_key = "AIzaSyAkssPj2hLfFKj-hdnL663Edf3LBq_zO38"
+api_key = "CREATE-AN-API-KEY-YOURSELF-IN-GOOGLE-AI-STUDIO"
 genai.configure(api_key=api_key)
 
 
