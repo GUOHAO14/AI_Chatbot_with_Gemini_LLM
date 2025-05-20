@@ -7,7 +7,7 @@ import tkinter as tk
 from tkinter import scrolledtext
 import tkinter.font as tkfont
 
-api_key = "AIzaSyAkssPj2hLfFKj-hdnL663Edf3LBq_zO38"
+api_key = "CREATE-AN-API-KEY-YOURSELF-IN-GOOGLE-AI-STUDIO"
 genai.configure(api_key=api_key)
 # customize response configuration for optimized generation
 config = genai.types.GenerationConfig(top_k=1, top_p=0.0, temperature=1.5, max_output_tokens=300)
